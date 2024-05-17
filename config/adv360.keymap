@@ -78,5 +78,15 @@
             >;
         };
 
+        layer_Ame {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans               &trans               &trans              &trans               &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans               &trans               &trans              &trans               &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &macro_ctrl_shift_j  &macro_ctrl_shift_j  &macro_ctl_shift_k  &macro_ctrl_shift_l  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &macro_ctrl_shift_n               &trans              &trans               &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                    &trans              &trans               &trans  &trans  &trans
+            >;
+        };
+
     };
 };
